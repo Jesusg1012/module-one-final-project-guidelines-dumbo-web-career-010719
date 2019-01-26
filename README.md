@@ -1,59 +1,55 @@
-# Module One Final Project Guidelines
 
-Congratulations, you're at the end of module one! You've worked crazy hard to get here and have learned a ton.
+![alt text](https://github.com/elizabethlemk/Mod-1-Final-Flatiron-Dating-Sim/blob/master/Screen%20Shot%202019-01-25%20at%209.38.32%20PM.png)
+- Description -
+This is the "Flatiron Dating Sim" game. In this game you are creating
+your character with randomly generated stats. Life is not fair sometimes. You have 30 days to find a lover to bring to prom.
 
-For your final project, we'll be building a Command Line database application.
+With your character you are given things to do. You can either go to the gym, volunteer, study, text someone, or go on a date. You have to go to work, exercise in the gym, volunteer, or study in the library before going on a date or texting someone. How else are you going to meet people?
 
-## Project Requirements
+![alt text](https://github.com/elizabethlemk/Mod-1-Final-Flatiron-Dating-Sim/blob/master/Screen%20Shot%202019-01-25%20at%209.39.06%20PM.png)
 
-### Option One - Data Analytics Project
+There are a limited amount of actions you can take before the next day begins. Some actions cost more than others.
 
-1. Access a Sqlite3 Database using ActiveRecord.
-2. You should have at minimum three models including one join model. This means you must have a many-to-many relationship.
-3. You should seed your database using data that you collect either from a CSV, a website by scraping, or an API.
-4. Your models should have methods that answer interesting questions about the data. For example, if you've collected info about movie reviews, what is the most popular movie? What movie has the most reviews?
-5. You should provide a CLI to display the return values of your interesting methods.  
-6. Use good OO design patterns. You should have separate classes for your models and CLI interface.
 
-  **Resource:** [Easy Access APIs](https://github.com/learn-co-curriculum/easy-access-apis)
+![alt text](https://github.com/elizabethlemk/Mod-1-Final-Flatiron-Dating-Sim/blob/master/Screen%20Shot%202019-01-25%20at%209.39.29%20PM.png)
 
-### Option Two - Command Line CRUD App
 
-1. Access a Sqlite3 Database using ActiveRecord.
-2. You should have a minimum of three models.
-3. You should build out a CLI to give your user full CRUD ability for at least one of your resources. For example, build out a command line To-Do list. A user should be able to create a new to-do, see all todos, update a todo item, and delete a todo. Todos can be grouped into categories, so that a to-do has many categories and categories have many to-dos.
-4. Use good OO design patterns. You should have separate models for your runner and CLI interface.
+Each option will increase a certain stat. Higher stats will increase your affection points with your desired lover. However different lovers like different stats. Enough affection points and you might just find yourself a lover to bring to prom!
 
-### Brainstorming and Proposing a Project Idea
+At the end of the game you will find out how you spent your days. How long it took you to get the lover or not get your lover.
 
-Projects need to be approved prior to launching into them, so take some time to brainstorm project options that will fulfill the requirements above.  You must have a minimum of four [user stories](https://en.wikipedia.org/wiki/User_story) to help explain how a user will interact with your app.  A user story should follow the general structure of `"As a <role>, I want <goal/desire> so that <benefit>"`. In example, if we were creating an app to randomly choose nearby restaurants on Yelp, we might write:
 
-* As a user, I want to be able to enter my name to retrieve my records
-* As a user, I want to enter a location and be given a random nearby restaurant suggestion
-* As a user, I should be able to reject a suggestion and not see that restaurant suggestion again
-* As a user, I want to be able to save to and retrieve a list of favorite restaurant suggestions
+![alt text](https://github.com/elizabethlemk/Mod-1-Final-Flatiron-Dating-Sim/blob/master/Screen%20Shot%202019-01-25%20at%209.40.09%20PM.png)
 
-## Instructions
 
-1. Fork and clone this repository.
-2. Build your application. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable.
-3. Make sure to create a good README.md with a short description, install instructions, a contributors guide and a link to the license for your code.
-4. Make sure your project checks off each of the above requirements.
-5. Prepare a video demo (narration helps!) describing how a user would interact with your working project.
-    * The video should:
-      - Have an overview of your project.(2 minutes max)
-6. Prepare a presentation to follow your video.(3 minutes max)
-    * Your presentation should:
-      - Describe something you struggled to build, and show us how you ultimately implemented it in your code.
-      - Discuss 3 things you learned in the process of working on this project.
-      - Address, if anything, what you would change or add to what you have today?
-      - Present any code you would like to highlight.   
-7. *OPTIONAL, BUT RECOMMENDED*: Write a blog post about the project and process.
+With this game you can compete with your friends and see who can find a lover for prom faster.
 
----
-### Common Questions:
-- How do I turn off my SQL logger?
-```ruby
-# in config/environment.rb add this line:
-ActiveRecord::Base.logger = nil
-```
+
+![alt text](https://github.com/elizabethlemk/Mod-1-Final-Flatiron-Dating-Sim/blob/master/Screen%20Shot%202019-01-25%20at%209.40.50%20PM.png)
+![alt text](https://github.com/elizabethlemk/Mod-1-Final-Flatiron-Dating-Sim/blob/master/Screen%20Shot%202019-01-25%20at%209.57.07%20PM.png)
+
+
+
+
+
+- Installation -
+Clone the repo here:
+
+After cloning be sure to run this in your terminal
+1) bundle install
+2) rake db:migrate
+3) rake db:seed
+4) ruby bin/run.rb
+
+- General Dating Philosophies Applied -
+1) Work on yourself first before trying to date.
+2) Love isn't easy; it takes time and effort.
+3) Everyone has different tastes.
+
+- Contributors -
+
+Jonathan Chan https://github.com/ParmeJon
+
+Elizabeth Le https://github.com/elizabethlemk
+
+Jesus Gonzalez https://github.com/jesusg1012
