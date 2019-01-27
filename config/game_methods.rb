@@ -207,11 +207,6 @@ def diary(current_user)
       end
     end
   end
-  puts " "
-  back = [
-    {"Back" => -> do return nil end } ]
-  prompt = TTY::Prompt.new
-  prompt.select("Click back when you are finished viewing your diary", back)
 end
 
 def work(current_user)
